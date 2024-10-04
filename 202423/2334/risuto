@@ -1,0 +1,35 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="./style.css">
+<title>ラ・プルマ</title>
+
+</head>
+
+<body>
+<style>
+body{background-image: url("u.png");
+background-size: cover;
+background-position: center;}
+</style>
+    <h1 style="color: rgb(98, 7, 7) ;">好きなキャラ紹介</h1>
+    <div style="text-align: left;">
+    <img src="20220126114351.jpg">
+    </div>
+    <h2 style="color:rgb(98, 7, 7) ;">ラ・プルマ</h2>
+    <b style="color:rgb(98, 7, 7) ;">My wife</p>
+    <h2 style="color:rgb(98, 7, 7);">どのくらい好きか</h2>
+    <b style="color:rgb(98, 7, 7);">凄惨な過去を持っていてなお家族や仲間を守ろうとするところ</b>
+    <b style="color:rgb(98, 7, 7);">戦闘スタイルもかっこいいし</b>
+    <b style="color:rgb(98, 7, 7);">（↓見たらわかる通り大きな鎌を持っている）</b>
+    <div>
+        <img src="OIP.jpg">
+    </div>
+    <b style="color:  rgb(98, 7, 7);" >あとkawaii</p>
+    <b style="color: rgb(98, 7, 7);">見たときに一目ぼれしました。もう全部好きまである（真顔）</p>
+    
+    <img src="r.jpg">
+    <a href="https://dic.pixiv.net/a/%E3%83%A9%E3%83%BB%E3%83%97%E3%83%AB%E3%83%9E%28%E3%82%A2%E3%83%BC%E3%82%AF%E3%83%8A%E3%82%A4%E3%83%84%29">気になった人はこちら↓（ウィキペディア)</a>
+</body>
+
+</html>
