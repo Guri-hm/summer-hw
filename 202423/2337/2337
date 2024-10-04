@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+<title></title>  
+<style>
+    html{
+        background-color: hsl(113, 82%, 82%);
+    }
+
+    body{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2{
+        margin-bottom: 0px;
+    }
+
+    p{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+@media(max-width:599px){
+    body{
+        width:100%;
+    }
+
+    img{
+        width:200px;
+        display:block;
+    }
+}
+
+@media(min-width:600px){
+    body{
+        width:70%;
+    }
+
+    img{
+        width:400px;
+        display:block;
+    }
+}
+
+</style>
+</head>
+
+<body>
+    <h1>1.位置　分布　</h1>
+    <h2>ニウエ</h2>
+    <p> </p>
+    <h2>どのくらい好きか？</h2>
+    <p>週に３回ぐらい買う時もある</p>
+    <img src="./o1080081014714299630.jpg">
+    <a href="./sub.html">次のページへ</a>
+</body>
+
+</html>
+    
+
