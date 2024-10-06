@@ -1,0 +1,27 @@
+<style>
+    html{
+        background-color: hsl(141, 33%, 83%);
+    }
+    @media(max-width:599px){
+            body{
+                width: 100%;
+            }
+            img{
+                width: 200px;
+                display: block;
+            }
+        }
+        @media (min-width:600px){
+            body{
+                width: 70%;
+            }
+            img{
+                width: 400px;
+                display: block;
+            }
+               .yellow-line{
+                background: linear-gradient(transparent 60%,hsl(313, 81%, 63%) 0%);
+                display: inline-block;
+               }
+        } 
+</style>

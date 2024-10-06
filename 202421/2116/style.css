@@ -1,0 +1,45 @@
+body {
+    background-color: #e3e3e3;
+}
+
+#container {
+    background-color: #f7f7f7;
+}
+.picture{
+         width: 50%;
+         height: 50%;
+}
+
+.picture2{
+    /*コレ*/margin: auto;
+    border: 1px solid #999;
+    background: #f2f2f2;
+}
+
+
+
+
+h1 {
+    text-align: center;
+    position: relative;
+    padding: 0.25em 1em;
+}
+
+h1:before,
+h1:after {
+    content: '';
+    position: absolute;
+    top: -7px;
+    width: 2px;
+    height: -webkit-calc(100% + 14px);
+    height: calc(100% + 14px);
+    
+}
+
+h1:before {
+    left: 7px;
+}
+
+h1:after {
+    right: 7px;
+}
