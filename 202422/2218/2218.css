@@ -1,0 +1,264 @@
+/*===== WEBサイト全体のスタイル =====*/
+/* html */
+html{
+    height: 100%;
+}
+
+/*body*/
+body{
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;/* マージン領域の設定 */
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* h1 見出し　*/
+h1{
+    color: #ffffff;/* フォントの色 */
+    font-size:100px;/* フォントの大きさ */
+    font-family: Train One;/*　フォントの種類　*/
+    text-align: center;/* 文字・画像を中央にそろえる　*/
+    background-image:url(オーランド諸島.1.jpg);
+    background-size:cover;/* 背景画像　*/
+    height: 600px;/* 高さ　*/
+    padding-top: 50px;
+    background-repeat: no-repeat;/* 背景の繰り返しをやめる */
+    background-position: top center;/* 背景の位置　*/
+}
+
+/*=====　ヘッダーのスタイル=====*/
+/* ヘッダーの箱　*/
+header{
+    height: 600px;/*　高さ */
+
+    
+}
+/* ナビゲーションの箱 */
+nav{
+    background-color: #663300;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* リスト全体　*/
+nav ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+/* １つ１つのリスト　*/
+nav li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+/* リンク　*/
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* リンクに触れたとき　*/
+nav a:hover{
+    color: #ffcc11;
+}
+
+/*===== 紹介2 =====*/
+/* セクション　*/
+ .position{
+    padding: 60px;
+    background-color: #ffffee;/*　背景の色　*/
+    color: #663300;
+    
+}
+/* h2　見出し　*/
+.title{
+    font-size: 30px;
+    border-left-style: solid;
+    border-left-width: 10px;
+    padding-left: 15px;
+    margin-bottom: 50px;
+}
+
+/*　段落　*/
+.position p{
+    font-size: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 30px;
+    height: 300px;
+}
+
+/* 画像　*/
+.position img{
+    float: right;/* 画像や箱の回り込み　*/   
+}
+
+
+/*===== 紹介３ =====*/
+/* セクション　*/
+.price{
+    background-color: #ffffee;/* 背景の色 */
+    color: #663300;
+    padding: 30px;
+}
+/* h3　見出し　*/
+.title{
+    font-size: 30px;
+    border-left-style: solid;
+    border-left-width: 10px;
+    padding-left: 15px;
+    margin-bottom: 50px;
+}
+
+/*　段落　*/
+.price p{
+    font-size: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 30px;
+    height: 1100px;
+}
+
+/* 画像　*/
+.price img{
+    display:block;
+}
+img:first-child{
+    margin:0 auto;
+}
+img:nth-child(3){
+    margin:0 auto;
+}
+img:last-child{
+    margin:0 auto;
+}
+
+
+/*===== 紹介４ =====*/
+/* セクション　*/
+.relation{
+    background-color: #ffffee;/* 背景の色 */
+    color: #663300;
+    padding: 30px;
+}
+/* h4　見出し　*/
+.title{
+    font-size: 30px;
+    border-left-style: solid;
+    border-left-width: 10px;
+    padding-left: 15px;
+    margin-bottom: 50px;
+}
+
+/*　段落　*/
+.relation p{
+    font-size: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 30px;
+    height: 600px;
+}
+
+/* 画像　*/
+.relation img{
+    float: right;/* 画像や箱の回り込み　*/   
+}
+
+/*===== 紹介５ =====*/
+/* セクション　*/
+.connect{
+    background-color: #ffffee;/* 背景の色 */
+    color: #663300;
+    padding: 30px;
+}
+/* h5　見出し　*/
+.title{
+    font-size: 30px;
+    border-left-style: solid;
+    border-left-width: 10px;
+    padding-left: 15px;
+    margin-bottom: 50px;
+}
+
+/*　段落　*/
+.connect p{
+    font-size: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 30px;
+    height: 550px;
+}
+
+/* 画像　*/
+.connect img{
+    float: right;/* 画像や箱の回り込み　*/   
+}
+
+/*===== 紹介６ =====*/
+/* セクション　*/
+.area{
+    background-color: #ffffee;/* 背景の色 */
+    color: #663300;
+    padding: 30px;
+}
+/* h6　見出し　*/
+.title{
+    font-size: 30px;
+    border-left-style: solid;
+    border-left-width: 10px;
+    padding-left: 15px;
+    margin-bottom: 50px;
+}
+
+/*　段落　*/
+.area p{
+    font-size: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 30px;
+    height: 300px;
+}
+
+/* 画像　*/
+.area img{
+    float: right;/* 画像や箱の回り込み　*/   
+}
+
+/*===== 紹介７ =====*/
+/* セクション　*/
+.sdgs{
+    background-color: #ffffee;/* 背景の色 */
+    color: #663300;
+    padding: 30px;
+}
+/* h7　見出し　*/
+.title{
+    font-size: 30px;
+    border-left-style: solid;
+    border-left-width: 10px;
+    padding-left: 15px;
+    margin-bottom: 50px;
+}
+
+/*　段落　*/
+.sdgs p{
+    font-size: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 30px;
+    height: 300px;
+}
+
+/* 画像　*/
+.sdgs img{
+    float: right;/* 画像や箱の回り込み　*/   
+}
+
+
+

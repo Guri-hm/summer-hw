@@ -1,0 +1,36 @@
+
+body{
+    background-image:url("フィリピンイメージ画像.webp");
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+h1{font-size:100px;
+text-align: center;
+}
+h2{
+    text-align: left;
+    line-height: top;
+}
+a.anchor{
+    display: block;
+    padding-top: 70px;
+    margin-top: -70px;
+}
+h3{
+    line-height: top ;
+    text-align:right ;
+}
+ .relative{
+    height: 300px;
+    width: 500px;
+
+ }
+ figure.side_image {
+    display: inline-block;
+  }
+   
+  p.side_text {
+    display: inline-block;
+    width: 300px;
+  }

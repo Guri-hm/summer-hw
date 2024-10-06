@@ -1,0 +1,54 @@
+/* style.css */
+
+/* 全体のスタイル設定 */
+body {
+    font-family: Arial, sans-serif; /* 基本フォント設定 */
+    margin: 0; /* ページ全体のマージンをリセット */
+    padding: 0; /* ページ全体のパディングをリセット */
+    background-color: #f4f4f4; /* 背景色を設定 */
+}
+
+/* ヘッダー画像のスタイル */
+
+
+
+/* h1とh2のスタイル設定 */
+h1 {
+    font-size: 2.5em; /* フォントサイズの設定 */
+    text-align: center; /* 中央寄せ */
+    color: #333; /* テキスト色 */
+    margin: 20px 0; /* 上下のマージン設定 */
+}
+
+h2 {
+    font-size: 1.8em; /* フォントサイズの設定 */
+    color: #555; /* テキスト色 */
+    margin: 15px 0; /* 上下のマージン設定 */
+    padding: 0 10px; /* 内部のパディング */
+}
+
+/* 黄色いラインが入るパラグラフのスタイル */
+.yellow-line {
+    border-left: 4px solid yellow; /* 左側に黄色いボーダーを設定 */
+    padding-left: 10px; /* テキストとの間にスペースを設定 */
+    margin: 20px 0; /* 上下のマージン設定 */
+    background-color: #fff; /* 背景色を設定 */
+}
+
+/* リンクのスタイル設定 */
+a {
+    text-decoration: none; /* 下線を消す */
+    color: #007bff; /* リンクの色 */
+    font-weight: bold; /* 太字にする */
+}
+
+a:hover {
+    text-decoration: underline; /* ホバー時に下線を表示 */
+}
+
+/* 次のページへリンクのスタイル設定 */
+div {
+    text-align: center; /* 中央寄せ */
+    margin-top: 20px; /* 上部のマージン */
+}
+
